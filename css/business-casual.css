@@ -87,10 +87,10 @@ hr {
 }
 
 .brand-name {
-    max-width:45%;
+    max-width:60%;
     margin: 0;
     font-size: 4em;
-    margin-bottom: 15px
+    margin-bottom: 20px;
 }
 
 .tagline-divider {
