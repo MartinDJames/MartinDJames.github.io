@@ -255,8 +255,19 @@ footer p {
       position:fixed;
    left:0px;
    bottom:0px;
-   height:50px;
+   height:65px;
    width:100%;
    background: #F4E5D9;
-    background: rgba(244,229,217,0.7)
+    background: rgba(244,229,217,0.7);
+   
+}
+
+.TA_restaurantWidgetWhite {
+    margin-right: 10px;
+    float:right;
+}
+.FB_logo {
+   
+    margin: 10px 14px 0px 14px;
+    float:left;
 }
