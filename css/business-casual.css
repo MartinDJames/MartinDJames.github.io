@@ -255,7 +255,8 @@ footer p {
       position:fixed;
    left:0px;
    bottom:0px;
-   height:30px;
+   height:50px;
    width:100%;
-   background:#999;
+   background: #F4E5D9;
+    background: rgba(244,229,217,0.7)
 }
