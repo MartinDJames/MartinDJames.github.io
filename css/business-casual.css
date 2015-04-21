@@ -62,13 +62,18 @@ hr {
     display: none;
 }
 
-.navbar-brand, .navbar-brand-tel {
+.navbar-brand{
     font-family:'exotc350_bd_btbold', Arial, sans-serif;
     /*text-transform: uppercase;*/
     font-weight: 1000;
     letter-spacing: 2px;
     }
-
+.navbar-brand-tel {
+ 
+    font-family:'exotc350_bd_btbold', Arial, sans-serif;
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
