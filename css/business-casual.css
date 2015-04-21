@@ -69,12 +69,6 @@ hr {
     letter-spacing: 2px;
     }
 
-@media screen and (max-width: 350px) and (orientation: portrait){
-    .navbar-brand-tel{
-        margin-top: 0.5em;
-
-    }
-}
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
@@ -260,7 +254,7 @@ footer p {
 }
 @media screen and (min-width:350px) and (max-width:350px) and (orientation:portrait){
     .fixed-footer{
-        display: none;
+        display: none !important;
     }
 }
 .fixed-footer{
