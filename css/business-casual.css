@@ -240,6 +240,11 @@ footer p {
     }
 }
 
+@media screen and (width:320px){
+    .fixed-footer{
+        display: none;
+    }
+}
 .hrtop {
     background:url(../img/flourishup.gif) no-repeat top center;
     height:42px;
@@ -252,7 +257,7 @@ footer p {
 }
 
 .fixed-footer{
-      position:fixed;
+   position:fixed;
    left:0px;
    bottom:0px;
    height:65px;
