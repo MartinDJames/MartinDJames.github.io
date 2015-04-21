@@ -240,11 +240,6 @@ footer p {
     }
 }
 
-@media screen and (orientation:portrait){
-    .fixed-footer{
-        display: none;
-    }
-}
 .hrtop {
     background:url(../img/flourishup.gif) no-repeat top center;
     height:42px;
@@ -255,15 +250,19 @@ footer p {
     height:42px;
     border:none !important;
 }
-
+@media screen and (orientation:portrait){
+    .fixed-footer:after{
+        display: none;
+    }
+}
 .fixed-footer{
-   position:fixed;
-   left:0px;
-   bottom:0px;
-   height:65px;
-   width:100%;
-   background: #F4E5D9;
-    background: rgba(244,229,217,0.7);
+       position:fixed;
+       left:0px;
+       bottom:0px;
+       height:65px;
+       width:100%;
+       background: #F4E5D9;
+       background: rgba(244,229,217,0.7);
    
 }
 
