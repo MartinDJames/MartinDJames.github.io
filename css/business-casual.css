@@ -60,13 +60,19 @@ hr {
     display: none;
 }
 
-.navbar-brand {
+.navbar-brand, .navbar-brand-tel {
     font-family:'exotc350_bd_btbold', Arial, sans-serif;
     /*text-transform: uppercase;*/
     font-weight: 1000;
     letter-spacing: 2px;
     }
 
+@media screen (orientation: portrait){
+    .navbar-brand-tel{
+        margin-top: 0.5em;
+
+    }
+}
 .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
