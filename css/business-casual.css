@@ -273,7 +273,7 @@ footer p {
     margin: 10px 14px 0px 14px;
     float: left;
 }
-@media handheld and (orientation:portrait){
+@media all and (orientation:portrait){
     .fixed-footer {
         display: none !important;
     }
