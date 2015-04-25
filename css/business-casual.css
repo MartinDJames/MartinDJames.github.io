@@ -275,6 +275,6 @@ footer p {
 }
 @media all and (orientation:portrait){
     .fixed-footer {
-        display: none !important;
+        visibility: hidden !important;
     }
 }
